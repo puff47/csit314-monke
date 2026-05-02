@@ -1,0 +1,21 @@
+/* style.css – minimal dark mode */
+:root {
+  --bg: white;
+  --text: black;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
+}
+
+body.dark {
+  --bg: #1e1e2f;
+  --text: #eee;
+}
+
+.toggle-btn {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
